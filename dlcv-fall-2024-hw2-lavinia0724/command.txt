@@ -1,0 +1,1 @@
+python .\P2_.py "C:\Users\momia\Downloads\dlcv-fall-2024-hw2-lavinia0724\hw2_data\face\noise" "C:\Users\momia\Downloads\dlcv-fall-2024-hw2-lavinia0724\hw2_data\face\output_images" "C:\Users\momia\Downloads\dlcv-fall-2024-hw2-lavinia0724\hw2_data\face\UNet.pt"

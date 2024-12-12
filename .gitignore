@@ -1,0 +1,25 @@
+#Ignore the dataset
+#IMPORTANT: make sure that your dataset is stored in a folder with the same as the one specified below
+
+dlcv-fall-2024-hw1-lavinia0724/hw1_data/*
+*png
+*jpg
+dlcv-fall-2024-hw1-lavinia0724/models/*
+
+
+
+dlcv-fall-2024-hw2-lavinia0724/hw2/*
+dlcv-fall-2024-hw2-lavinia0724/models/*
+dlcv-fall-2024-hw2-lavinia0724/output/*
+dlcv-fall-2024-hw2-lavinia0724/hw2_data/*
+dlcv-fall-2024-hw2-lavinia0724/output_folder/*
+dlcv-fall-2024-hw2-lavinia0724/P3_Test.sh
+dlcv-fall-2024-hw2-lavinia0724/stable-diffusion/ldm/models/*
+dlcv-fall-2024-hw2-lavinia0724/hw2_output/*
+dlcv-fall-2024-hw2-lavinia0724/stable-diffusion/src/*
+dlcv-fall-2024-hw2-lavinia0724/P3_Test1.sh
+*png
+*jpg
+*.pyc
+*.pyo
+*.bin
