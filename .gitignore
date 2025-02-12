@@ -23,3 +23,12 @@ dlcv-fall-2024-hw2-lavinia0724/P3_Test1.sh
 *.pyc
 *.pyo
 *.bin
+
+
+dlcv-fall-2024-hw3-lavinia0724/hw3_data/*
+dlcv-fall-2024-hw3-lavinia0724/not push/*
+dlcv-fall-2024-hw3-lavinia0724/best model/*
+
+
+dlcv-fall-2024-hw4-lavinia0724/dataset/*
+dlcv-fall-2024-hw4-lavinia0724/gaussian-splatting/submodules/*
