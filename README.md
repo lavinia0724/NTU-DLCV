@@ -3,6 +3,7 @@
 ## HW1
 - Problem 1: Self-supervised pre-training for image classification
 - Problem 2: Semantic segmentation
+  
 Performance:
 |                 | p1_val_score | p1_test_score | p2_val_score | p2_test_score |
 | --------------- |:------------ | ------------- | ------------ |:------------- |
