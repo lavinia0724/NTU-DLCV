@@ -1,4 +1,4 @@
-# Deep Learning for Computer Vision by Frank Wang 
+# Deep Learning for Computer Vision
 
 ## HW1
 - Problem 1: Self-supervised pre-training for image classification
@@ -41,3 +41,14 @@ Performance:
 | **My Performance** | **38.03771405** | **0.9803916465** | **37.88307479** | **0.9799995792** |
 |  Baseline   | 35            | 0.97           | 35              | 0.97            |
 
+## Final Project
+- ECCV 2024 Workshop Challenge: Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving
+| Index | Setting                     | Bleu 1 | Bleu 2 | Bleu 3 | Bleu 4 | General | Reginal | Suggestion | LLM judge | Final score |
+|-------|-----------------------------|--------|--------|--------|--------|---------|---------|------------|-----------|-------------|
+| 1     | LoRA only (rank=64)         | 1.28   | 0.75   | 0.45   | 0.28   | 5.08    | 5.39    | 4.89       | 5.12      | 4.19        |
+| 2     | cross-attn only (all features) | 1.28   | 0.75   | 0.46   | 0.29   | 5.06    | 5.18    | 4.55       | 4.93      | 4.04        |
+| 3     | 1 + vit                     | 1.30   | 0.76   | 0.47   | 0.30   | 5.01    | 5.55    | **4.95** | 5.17      | 4.23        |
+| 4     | 1 + segmentation            | 1.31   | 0.77   | 0.47   | 0.30   | 5.57    | 5.51    | 4.53       | 5.20      | 4.26        |
+| 5     | 1 + depth                   | 1.31   | 0.76   | 0.46   | 0.29   | 5.07    | 5.48    | 4.82       | 5.12      | 4.19        |
+| 6     | 1 + instance                | **1.31** | **0.77** | **0.47** | **0.30** | 5.55    | 5.48    | 4.42       | 5.15      | 4.21        |
+| 7     | 1 + all features            | 1.30   | 0.76   | 0.46   | 0.29   | **5.72** | **5.56** | 4.64       | **5.31** | **4.34** |
