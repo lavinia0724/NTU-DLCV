@@ -1,4 +1,4 @@
-# Deep Learning for Computer Vision
+# NTU Deep Learning for Computer Vision 2024
 
 ## HW1
 - Problem 1: Self-supervised pre-training for image classification
@@ -43,6 +43,8 @@ Performance:
 
 ## Final Project
 - ECCV 2024 Workshop Challenge: Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving
+
+Performance:
 | Index | Setting                     | Bleu 1 | Bleu 2 | Bleu 3 | Bleu 4 | General | Reginal | Suggestion | LLM judge | Final score |
 |-------|-----------------------------|--------|--------|--------|--------|---------|---------|------------|-----------|-------------|
 | 1     | LoRA only (rank=64)         | 1.28   | 0.75   | 0.45   | 0.28   | 5.08    | 5.39    | 4.89       | 5.12      | 4.19        |
